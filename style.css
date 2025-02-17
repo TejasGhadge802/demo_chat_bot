@@ -1,0 +1,58 @@
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #navbar ul{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #navbar li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    #cardBox{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    #card{
+        margin-top: 10px;
+        height: 230px;
+        max-width: 200px;
+        background-color: #ADE0FE;
+        border-radius: 15px;
+        box-shadow: 10px 10px 15px black;
+        text-align: left;
+        padding: 20px 15px;
+        font-size: 1rem;
+    }
+    img{
+        width: 5.8rem;
+        margin: 10px 0;
+    }
+    #card p{
+        padding: 5px 0 0 0;
+    }
+    #links{
+        margin-top: 10px 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    #git{
+        color: black;
+    }
+    #linkedin{
+        color: blue;
+    }
+    #insta{
+        color: #CC82FF;
+    }
+</style>
